@@ -18,6 +18,8 @@ namespace Task1
             byte r = (byte)(c + e);
             int k = (int)(a + b - e);
             short l = (short)(c + e);
+            Object obj = r;
+            byte only_k = (byte)obj;
         }
     }
 }
